@@ -2,8 +2,8 @@ f = open('d:\\pyth\\thumbdata3.dat', 'rb')
 tdata = f.read()
 f.close()
 
-ss = '\xff\xd8'
-se = '\xff\xd9'
+ss = '\xff\xd8' # jpeg start byte
+se = '\xff\xd9' # jpeg end byte
 
 count = 0
 
